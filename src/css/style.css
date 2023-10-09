@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: beige;
+    background-color: whitesmoke;
+    
 }
 
 /* Reset some default styles */
@@ -174,7 +175,7 @@ h2 {
 
 .designs{
 
-    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #E69083 0%, #E6908300 100%) 0% 0% no-repeat padding-box;
     mix-blend-mode: multiply;
     border-radius: 600px;
     opacity: 1;
@@ -183,18 +184,20 @@ h2 {
 
 #image1 {
     position: absolute;
-    top: 340px;
-    left: 200px;
-    width: 200px;
-    height: 400px;
+    top: 276px;
+    left: 803px;
+    width: 400px;
+    height: 573px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
 }
 
 #image2 {
     position: absolute;
-    top: 300px;
-    left: 500px;
-    width: 300px;
-    height: 694px;
+    top: 50px;
+    left: 400px;
+    width: 400px;
+    height: 573px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
 }
 
 #image3 {
